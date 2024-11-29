@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navMenu {
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    height: 0;
+}
+
+.navMenu.show {
+    
+    height: 50vh;
+    opacity: 1;
+}
